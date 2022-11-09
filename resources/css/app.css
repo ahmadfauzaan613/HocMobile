@@ -15,3 +15,29 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+.homelanding {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/image/backgroundlanding.svg");
+}
+
+.bghome {
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.7) 0%,
+        rgba(0, 24, 47, 0.9) 78.12%,
+        #00182f 100%
+    );
+}
+
+.pionir {
+    background: linear-gradient(
+        180deg,
+        #00182f 0%,
+        #000b16 45.83%,
+        #000000 100%
+    );
+}
