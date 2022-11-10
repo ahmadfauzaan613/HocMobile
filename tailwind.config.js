@@ -6,12 +6,12 @@ module.exports = {
     ],
     theme: {
         screens: {
-            sm: "320px",
-            md: "481px",
-            lg: "769px",
-            xl: "1025px",
-            xxl: "1201px",
-            xxxl: "1920px",
+            phone: { min: "320px", max: "480px" },
+            tablet: { min: "481px", max: "768px" },
+            laptop: { min: "769px", max: "1024px" },
+            desktop: { min: "1025px", max: "1200px" },
+            desktop2: { min: "1201px", max: "1919px" },
+            desktop3: { min: "1920px", max: "9999px" },
         },
         extend: {},
     },

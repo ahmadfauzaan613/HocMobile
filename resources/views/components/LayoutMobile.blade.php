@@ -12,7 +12,7 @@
 </head>
 
 <body class="bg-[#FBFBFB] w-full h-screen">
-    <div class="xxxl:hidden  xxl:hidden  xl:hidden lg:hidden md:hidden">
+    <div class="desktop3:hidden  desktop2:hidden  desktop:hidden laptop:hidden tablet:hidden">
         {{ $slot }}
     </div>
 </body>

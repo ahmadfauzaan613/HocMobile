@@ -6,17 +6,34 @@
     box-sizing: border-box;
 }
 
+.landingpage {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    background-color: #00182f;
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
 html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #fbfbfb;
+    scroll-behavior: smooth;
     font-family: "Open Sans", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
 .homelanding {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/image/backgroundlanding.svg");
+}
+.homelanding2 {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -40,4 +57,79 @@ body {
         #000b16 45.83%,
         #000000 100%
     );
+}
+
+.tantangan {
+    background: linear-gradient(180deg, #000000 0%, #000b16 50%, #00182f 100%);
+}
+
+.keuntungan {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/image/testBg.png");
+}
+.bgkeuntungan {
+    background: linear-gradient(
+        180deg,
+        #00182f 0%,
+        rgba(0, 11, 22, 0.8) 45.83%,
+        #000000 100%
+    );
+}
+
+.bgmanfaat {
+    background: linear-gradient(
+        180deg,
+        #000000 0%,
+        rgba(0, 13, 26, 0.8) 48.96%,
+        #00182f 100%
+    );
+}
+
+.manfaat {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../public/image/irwan-iwe-rbDE93-0hHs-unsplash 1.png");
+}
+
+.kontak {
+    background: linear-gradient(
+        180deg,
+        #00182f 0%,
+        #000b16 45.83%,
+        #000000 100%
+    );
+}
+
+.footer {
+    background: linear-gradient(180deg, #010101 0%, #0081f7 100%);
+}
+
+header.sticky {
+    background: #00182f;
+    z-index: 1;
+}
+header {
+    transition: 0.6s;
+    z-index: 1;
+}
+
+.blink_me {
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    .landingpage {
+        overflow-x: hidden;
+    }
 }
