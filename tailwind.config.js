@@ -13,7 +13,6 @@ module.exports = {
             desktop2: { min: "1201px", max: "1919px" },
             desktop3: { min: "1920px", max: "9999px" },
         },
-        extend: {},
     },
     plugins: [],
 };
